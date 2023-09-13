@@ -1,0 +1,70 @@
+html, body{
+    margin: 0;
+    }
+    header{
+    background-color: #018DC2;
+    padding: 40px;
+    text-align: center;
+    }
+    header img{
+    border-radius: 10px;
+    width: 450px;
+    border: 0px solid #23B2E9;
+    }
+    .content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    img.big-image{
+    
+    max-width: 100%;
+    }
+    p.cap3on{
+    font-size: 16px;
+    color: lightgrey;
+    font-style: italic;
+    }
+    h1{
+        text-align: center;
+    }
+    .friends{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .friends .friend{
+        border: 1rem solid rgba(33, 134, 160, 0.1);
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        flex: 1 1 25rem;
+    }
+    .friends .friend img{
+        height: 15rem;
+        width: 15rem;
+        border-radius: 32%;
+        margin-right: 2rem;
+    }
+    .friends .friend h3{
+        color: red;
+    }
+    .friends .friend span{
+        color: aliceblue;
+        font-size: 1.3rem;
+    }
+    
+    footer{
+    margin-top: 20px;
+    padding: 40px 20px;
+    background-color: #98DDEA;
+    }
+    footer .footerContainer{
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: large
+    }
